@@ -1,0 +1,18 @@
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyLCJuYW1lIjoidXNlciIsImVtYWlsIjoidXNlckBnbWFpbC5jb20iLCJpYXQiOjE3MDE1MzI1NDQsImV4cCI6MTcwMTUzMjU3NH0.eKuauZJ4dHtf9j4JBHKvO8BEgXmRew0Zv-ZdlTJIy6s
+
+
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "user@gmail.com",
+    "password" : "12345678"
+}
+
+###
+GET http://localhost:3000/token
